@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ITG</title>
+</head>
+
+<body>
+	<center>
+		<?php
+
+		// servername => localhost
+		// username => root
+		// password => empty
+		// database name => staff
+		$conn = mysqli_connect("localhost", "root", "", "staff");
+		
+		// Check connection
+		if($conn === false){
+			die("ERROR: Could not connect. "
+				. mysqli_connect_error());
+		}
+		
+		// Taking all 5 values from the form data(input)
+		$first_name = $_REQUEST['first_name'];
+		$last_name = $_REQUEST['last_name'];
+		$gender = $_REQUEST['gender'];
+		$address = $_REQUEST['address'];
+		$email = $_REQUEST['email'];
+		$password = $_REQUEST['pwd'];
+
+		
+		// Performing insert query execution
+		// here our table name is college
+		$sql = "INSERT INTO college (first_name,last_name,gender,address,email,password) VALUES ('$first_name',
+			'$last_name','$gender','$address','$email','$password')";
+		
+		if(mysqli_query($conn, $sql)){
+			// echo "<h3>data stored in a database successfully."
+			// 	. " Please browse your localhost php my admin"
+			// 	. " to view the updated data</h3>";
+
+			// echo nl2br("\n$first_name\n $last_name\n "
+			// 	. "$gender\n $address\n $email");
+			// echo '<script>alert("Dear $first_name your data sent successful !")</script>';
+			function function_alert($message) {
+			echo "<script>alert('Dear $message your data sent successful');</script>";
+			}
+			function_alert($first_name);
+
+
+		} else{
+			echo "ERROR: Hush! Sorry $sql. "
+				. mysqli_error($conn);
+		}
+		
+		// Close connection
+		mysqli_close($conn);
+		?>
+
+	</center>
+
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+	.a{
+		width: 90%;
+		padding:2%;
+		margin-left:3%;
+		border: none;
+		border-bottom: 1px solid gray;
+		background-color: #e1eaeb;
+		position: relative;
+	}
+	.b {
+		width: 40%;
+		height: 50px;
+		border-radius: 5px;
+		background-color: #9cd4db;
+		border:none;
+		margin-left:5%;
+		margin-top: 10px;
+		font-weight: bold;
+	}
+
+	input::placeholder{
+		font-style: bold;
+		text-indent: 35%;
+	}
+	.div_for_register{
+		width: 300px;
+		height: 400px;
+		float: right;
+		margin-right: 10%;
+		margin-top: 5%;
+		border-radius: 10px;
+		background-color: #e1eaeb;
+		top: 40px;
+		position: center;
+	}
+	.div_for_register h1{
+		color: #6a6b6b;
+		margin-left: 50px;
+	}
+	.div_for_register a{
+		text-decoration: none;
+	}
+	
+	.div_for_register p{
+		margin-left: 20px;
+	}
+/* /////////////////////////////// index.php  ///////////////////////*/
+nav ul{
+	/* text-decoration: none; */
+	list-style-type: none;
+}
+nav{
+	width: 90%;
+	background-color: none;
+	position: fixed;
+}
+
+
+

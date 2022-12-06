@@ -1,0 +1,224 @@
+body{
+    /* background-image: linear-gradient(to right top, #f9f9f9, #f4f7f9, #edf5f6, #e9f4ef, #ecf0e5); */
+    background-image: linear-gradient(to right top, #f8f9f5, #f9faf6, #fafbf8, #fbfcf9, #fcfdfa);
+}
+*{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    /* background-color: #344D67; */
+
+}
+
+.logo{
+margin-left: 10%;
+font-size: 30px;
+font-weight: bold;
+font-family: system-ui;
+margin-top: 15px;
+color: gray;
+height: 70px;
+/* background-color: gray; */
+
+}
+ul{
+    list-style-type: none; 
+    margin-left: 55%;
+    margin-top: -35px;
+    /* background-color: gray; */
+    height: 34px;
+}
+ul li{
+display: inline;
+padding:20px;
+margin-top: -4%;
+
+}
+ul li a{
+text-decoration: none;
+color: gray;
+font-size: 18px;
+font-weight: 300;
+font-family: system-ui;
+}
+ul li a:hover{
+    /* background-color: rgb(44, 116, 0); */
+    border-radius: 5px;
+    width: 40px;
+    height: 10px;
+    color: rgb(0, 55, 28);
+    font-weight: bold;
+}
+
+.nav{
+width: 90%;
+position: absolute;
+display: flex;
+margin-left: 5%;
+}
+
+/* ///////////////////first DIV /////////////*/
+.home_div{
+    /* background-image: url(images/a.png); */
+}
+.home_div,
+.home_about
+    {
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: 700px;
+    margin-top: 40px;
+    border-radius: 2px;
+    /* background-color: rgb(255, 255, 255); */
+    background-repeat: no-repeat;
+    background-size: 100%;   /* border-radius: 20px; */
+    margin-left: 5%;
+    }
+    .home_div img,
+    .home_about img{
+        width:50%;
+        height: 90%;
+        background-color: transparent;
+        margin-top: -10%;
+    
+        }
+    .homepage_text{
+    margin-top: 20%;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: system-ui;
+    }
+    .homepage_text p{
+        /* background-color: rgb(255, 255, 255); */
+        margin-top: -10%;
+    }
+/* ////////about div///////// */
+.home_about{
+    /* background-color: rgb(255, 255, 255); */
+    /* background-image: url(images/about.png); */
+}
+
+/* ///////////////services DV/////////// */
+#servises {
+    width: 90%;
+    height: 700px;
+    margin-top: 15px;
+    margin-left: 5%;
+    /* border-radius: 20px; */
+    /* background-color: rgb(255, 255, 255); */
+    /* background-image: url(images/b.png); */
+    background-repeat: no-repeat;
+    background-size: 100%;   
+    justify-content: center;
+    border-radius: 2px;
+    }
+    #servises a img{
+    width: 30%;
+    height: 50%;
+    margin-top: 10%;
+    margin-left: 2%;
+    background-color: #0d9f9f;
+    }
+    #servises a img:hover{
+        width: 30%;
+        height: 50%;
+        margin-top: 10%;
+        margin-left: 2%;
+        background-color: gray;
+    }
+    #servises p{
+   
+    font-size: 30px;
+    font-family: system-ui;
+    margin-left: 40%;
+    margin-top: 5%;
+    /* color: gray; */
+    /* background-color: transparent; */
+    }
+    .servises a img:hover{
+        background-color: gray;
+
+    }
+/* //////////////////////// */
+/* //////////////////////// */
+
+
+/* ////////////////////// */
+#contact{
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: 700px;
+    margin-top: 30px;
+    justify-content: center;
+}
+#contact div{
+    width: 40%;
+    margin-top: 10%;
+    /* background-color: rgb(255, 255, 255); */
+
+}
+#contact div p{
+    color: gray;
+    font-size: 30px;
+    font-family: system-ui;
+    margin-left: 40%;
+    /* background-color: rgb(255, 255, 255); */
+
+}
+#contact div input{
+    border-radius: 2px;
+    /* border: 1px solid rgb(8, 222, 241); */
+    background-color: transparent;
+    height: 30px;
+    /* background-color: rgb(255, 255, 255); */
+
+}
+#contact div input,textarea{
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: transparent;
+
+    border: 1px solid rgb(0, 0, 0);
+}
+#contact div input,textarea::placeholder{
+    text-indent: 30%;
+}
+/* //////////////////////FOOTER//////////////////// */
+footer{
+    width: 90%;
+    height: 300px;
+    /* background-color: #434242; */
+    background-image: url(images/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    display: flex;
+    /* border-radius: 5px; */
+    margin-top: 5%;
+    margin-left: 5%;
+}
+footer div{
+    width: 25%;
+    margin-top: 100px;
+    background-color: transparent;
+    justify-content: center;
+    color: white;
+    font-weight: 300;
+    
+}
+footer div p,
+footer div a{
+    background-color: transparent;
+    text-decoration: none;
+    color: #00527B;
+    font-weight: 300;
+}
+/* ///////////////////////// */
+/* //////////////////////////BUTTON TO SCROLL */
+
+
+
+/* /////////////////////////////////// */
